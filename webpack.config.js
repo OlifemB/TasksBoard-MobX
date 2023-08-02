@@ -42,16 +42,7 @@ module.exports = {
                 test: /\.(png|woff|woff2|eot|ttf|otf)$/,
                 use: ['url-loader?limit=100000']
             }, {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                use: {
-                    loader: "babel-loader",
-                    options: {
-                        presets: ['@babel/preset-env']
-                    }
-                }
-            }, {
-                test: /\.jsx$/,
+                test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: {
                     loader: "babel-loader",
@@ -60,7 +51,7 @@ module.exports = {
                     }
                 }
             }, {
-                test: /\.tsx?$/,
+                test: /\.(ts|tsx)$/,
                 exclude: /node_modules/,
                 use: {
                     loader: "babel-loader",

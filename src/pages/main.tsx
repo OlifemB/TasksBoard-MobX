@@ -3,9 +3,9 @@ import Dashboard from "@/components/dashboard";
 
 const Main = () => {
     return (
-        <div>
+        <main className={'main'}>
             <Dashboard/>
-        </div>
+        </main>
     );
 };
 

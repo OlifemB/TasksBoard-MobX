@@ -1,11 +1,13 @@
-# Get App
+# MobX Agile-Board
 
 ```
- npm i
+ npm install
  npm run dev
+ npm run server
 ```
 - Webpack
 - TypesScript
 - React
-- Redux Toolkit
+- MobX ST
 - SASS
+- Tailwind

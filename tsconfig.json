@@ -22,6 +22,11 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "emitDecoratorMetadata": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
     "paths": {
       "@/*": ["src/*"],
     }

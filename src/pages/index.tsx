@@ -2,7 +2,6 @@ import React from 'react';
 import {Navigate, Route, Routes} from "react-router-dom";
 import Main from "@/pages/main";
 import Error from "@/pages/error";
-import '@/libs/styles/index.scss'
 
 export default function Router() {
     return (

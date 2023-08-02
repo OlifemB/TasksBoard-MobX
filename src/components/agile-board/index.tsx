@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {useDND} from '@/libs/hooks/useDND'
+import {useDND} from '@/common/hooks/useDND'
 
 
 export const EasyMain = () => {
